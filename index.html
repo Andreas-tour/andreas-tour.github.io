@@ -2,12 +2,33 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Andreas Tour – Welcome to Gambia</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Explore The Gambia with Abou</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
 </head>
 <body>
-  <h1>Welcome to Andreas Tour</h1>
-  <p>Make your holidays a memorable and exciting adventure in The Gambia.</p>
-  <p>On my page, you can book your excursions and learn more about our beautiful country!</p>
+  <header>
+    <h1 data-en="Explore The Gambia with Abou" data-de="Entdecke Gambia mit Abou"></h1>
+    <nav>
+      <a href="#" data-en="Home" data-de="Startseite"></a>
+      <a href="#" data-en="Tours" data-de="Touren"></a>
+      <a href="#" data-en="Gallery" data-de="Galerie"></a>
+      <a href="#" data-en="Stories" data-de="Reiseberichte"></a>
+      <a href="#" data-en="Book Now" data-de="Jetzt buchen"></a>
+      <a href="#" data-en="Contact" data-de="Kontakt"></a>
+    </nav>
+    <div id="lang-switcher">
+      <button onclick="setLanguage('en')">EN</button>
+      <button onclick="setLanguage('de')">DE</button>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <p data-en="Welcome! I’m Abou, your personal guide through the heart of The Gambia."
+         data-de="Willkommen! Ich bin Abou, dein persönlicher Reiseführer durch das Herz Gambias."></p>
+    </section>
+  </main>
 </body>
 </html>
